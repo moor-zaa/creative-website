@@ -1,11 +1,10 @@
+import Hero from "@/components/hero";
 
 export default function Home() {
   return (
     <div className="">
       <main className="">
-        <h1 className="text-violet-300 text-5xl">
-          Welcome to Awwwards
-        </h1>
+        <Hero />
       </main>
       <footer className="">
 
